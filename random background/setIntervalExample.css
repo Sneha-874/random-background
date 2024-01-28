@@ -1,0 +1,17 @@
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    transition: all 0.8s;
+    
+}
+button:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.438);
+}
